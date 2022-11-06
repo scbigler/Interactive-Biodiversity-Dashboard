@@ -8,14 +8,14 @@ function buildMetadata(sample) {
     let result= resultsarray[0]
 
     // Select the panel with id of `#sample-metadata`
-    let panel = d3.select("#sample-metadata");
+    let demoPanel = d3.select("#sample-metadata");
 
       // Clear any existing metadata
-    panel.html("");
+    demoPanel.html("");
 
     // Loop through all key/value pairs for selected sample number to populate the Demographic Info panel
     Object.entries(result).forEach(([key, value]) => {
-      panel.append("h6").text(`${key}: ${value}`);
+      demoPanel.append("h6").text(`${key}: ${value}`);
     });
 
   });
