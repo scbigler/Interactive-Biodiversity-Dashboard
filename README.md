@@ -5,22 +5,18 @@ In this assignment, data from the [Belly Button Biodiversity dataset](http://rob
 
 The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
 
-Technolgies used:
+## Technolgies used:
+
+* JavaScript
+* HTML/CSS
+* Plotly
 
 
-## Instructions
+## Site Description
 
-Complete the following steps:
+1. When first accessed, the site populates the charts and demographic info panel with the data from the first test subject in the sample, identified by Test Subject ID.  
+2. A dropdown list of test subject IDs is located on the left side of the screen. When a user selects a test subject, the charts will dynamically change, using the data for the selected subject ID. 
 
-1. Use the D3 library to read in `samples.json` from the URL `https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json`.
-
-2. Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
-
-  * Use `sample_values` as the values for the bar chart.
-
-  * Use `otu_ids` as the labels for the bar chart.
-
-  * Use `otu_labels` as the hovertext for the chart.
 
   ![bar Chart](Images/hw01.png)
 
