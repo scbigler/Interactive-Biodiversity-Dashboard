@@ -1,5 +1,5 @@
 
-## Belly Button Biodiversity
+## Interactive Dashboard from the Belly Button Biodveristy dataset
 
 Data from the [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/belly-button-biodiversity/), which catalogs the microbes that colonize human navels, was used to build an interactive dashboard. 
 
